@@ -1,3 +1,15 @@
-svg {
-	background-color: lightgrey;
+* {
+	font-family: sans-serif;
+}
+
+.zoom {
+	cursor: move;
+	fill: none;
+	pointer-events: all;
+}
+
+.box {
+	width: 150px;
+	height: 50px;
+	border: 1px solid black;
 }
